@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AddressBook</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <span>Address </span>
+        <span class="colour">Book</span>
+      </div>
+      <button class="button" onclick="addContact()">
+        <span>Add Contact</span>
+      </button>
+    </nav>
+    <hr />
+    <main>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Search Contact"
+          id="searchContact"
+          onkeyup="search_contact()"
+        />
+      </div>
+      <div class="content">
+        <div class="address-page">
+          <h1>Contacts</h1>
+          <div class="address"></div>
+        </div>
+        <div class="main-content">
+          <img src="./assets/Navigation-amico.png" id="logo" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;2023 Kevin Gida</p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/kevingida/">
+            <img src="./assets/icons8-instagram-old-50.png" alt="instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/Kevingida">
+            <img src="./assets/icons8-facebook-50.png" alt="facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/kevin-gida/">
+            <img src="./assets/icons8-linkedin-50.png" alt="linkedIn" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
